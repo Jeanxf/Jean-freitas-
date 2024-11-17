@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      tbody tr:nth-child(odd) {
+        background-color: rgb(238, 17, 9);
+      }
+      tbody tr:nth-child(even) {
+        background-color: rgb(243, 8, 8);
+      }
+
+      form {
+        border: 1px solid rgb(238, 16, 16);
+        padding: 10px;
+        margin: 50px;
+      }
+    </style>
+    <script>
+      function ocultarFormulario() {}
+
+      function exibirFormulario() {}
+    </script>
+  </head>
+  <body>
+    <h1>Lista de Cachorros e Donos</h1>
+    <button onclick="ocultarFormulario()">Adicionar um cachorro e gatos</button>
+    <br />
+    <form id="formulario">
+      <label>Cachorro</label>
+      <input name="cachorro" type="text" />
+      <br />
+
+      <label>Dono</label>
+      <input name="dono" type="text" />
+      <br />
+
+      <label>Telefone</label>
+      <input name="tefefone" type="tel" />
+      <br />
+
+      <label>Email</label>
+      <input name="email" type="email" />
+      <br />
+
+      <label>Imagem</label>
+      <input name="imagem" type="text" />
+      <br />
+      <button>Adicionar</button>
+    </form>
+    <table border="1">
+      <thead>
+        <td>Imagem</td>
+        <td>Cachorro</td>
+        <td>Dono</td>
+        <td>Telefone</td>
+        <td>Email</td>
+        <td>Acoes</td>
+      </thead>
+      <tbody>
+        <tr>
+            <td>
+              <img src="https://placedog.net/150/150?random=1" />
+            </td>
+            <td>FOCHX</td>
+            <td>JEAN FREITAS</td>  
+            <td>62 992381905</td>
+            <td>JEANGCF17@GMAIL.COM</td>
+            <td>
+              <button>editar</button>
+              <button>excluir</button>
+            </td>
+          </tr>
+          <td>
+            <img src="https://placedog.net/150/150?random=2" />
+          </td>
+          <td>SCOOBY</td>
+          <td>MARIA DUARTE</td>  
+          <td>62 983421645</td>
+          <td>MARIADUARTE@gmail.com</td>
+          <td>
+            <button>editar</button>
+            <button>excluir</button>
+          </td>
+        </tr>
+        <td>
+            <img src="https://placedog.net/150/150?random=1" />
+          </td>
+          <td>PANDORA</td>
+          <td>ADRIANA</td>  
+          <td>62 994636945</td>
+          <td>ADRIANA@gmail.com</td>
+          <td>
+            <button>editar</button>
+            <button>excluir</button>
+          </td>
+        </tr>
+        <td>
+            <img src="https://placedog.net/150/150?random=2" />
+          </td>
+          <td>NIKE</td>
+          <td>ADRIANO</td>  
+          <td>62 991601090</td>
+          <td>ADRIANO@gmail.com</td>
+          <td>
+            <button>editar</button>
+            <button>excluir</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="https://placedog.net/150/150?random=1" />
+          </td>
+          <td>PITUCA</td>
+          <td>ALINY</td>
+          <td>62992515000</td>
+          <td>ALINY@gmail.com</td>
+          <td>
+            <button>editar</button>
+            <button>excluir</button>
+          </td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </body>
+</html>
